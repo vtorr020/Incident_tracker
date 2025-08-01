@@ -1,4 +1,4 @@
-# [📌Incident tracker](https://incidenttracker.alwaysdata.net/)
+# [📌Incident tracker]
 
 **Incident Tracker** es una plataforma web diseñada para registrar, gestionar y hacer seguimiento a los incidentes detectados por el equipo SOC dentro de una organización. Permite mantener un control centralizado, aplicar medidas correctivas y garantizar trazabilidad en todas las áreas involucradas.
 
