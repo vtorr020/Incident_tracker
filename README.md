@@ -1,6 +1,6 @@
 # [📌Incident tracker]
 
-**Incident Tracker** es una plataforma web diseñada para registrar, gestionar y hacer seguimiento a los incidentes detectados por el equipo SOC dentro de una organización. Permite mantener un control centralizado, aplicar medidas correctivas y garantizar trazabilidad en todas las áreas involucradas.
+**Incident Tracker** es una plataforma web diseñada para registrar, gestionar y hacer seguimiento a los incidentes detectados por el equipo SOC dentro de Foundever. Permite mantener un control centralizado, aplicar medidas correctivas y garantizar trazabilidad en todas las áreas involucradas.
 
 ## 🌐 URL de acceso
 
@@ -9,8 +9,8 @@
 ## 👤 Roles del sistema
 
 - **Super Administrador**: Gestión total (usuarios, empleados, tickets y módulos informativos)
-- **Administrador**: Gestión de empleados y seguimiento de tickets
-- **Otros roles** (Ej. Legal, BISO, IT, RRHH): Visualización, búsqueda y filtros según permisos
+- **Administrador**: Gestión de empleados, seguimiento de tickets y módulos informativos
+- **Otros roles** (Ej. Legal, BISO, HR): Visualización, búsqueda y filtros
 
 ## 🔐 Inicio de sesión y seguridad
 
@@ -43,15 +43,7 @@
 - Edición de contenidos en secciones como:
   - Vulnerabilidades
   - “¿Sabías que?”
-  - Concienciación
-  - Seguridad informática
-
-## 🧱 Tecnologías usadas
-
-- **Frontend:** HTML, CSS, Bootstrap 5, jQuery, DataTables, SweetAlert2
-- **Backend:** PHP (modularizado), MySQL
-- **Complementos:** Select2, validaciones AJAX, sesiones seguras
-- **Hosting:** AlwaysData
+  - Concienciación y seguridad informática
 
 ## 📦 Estructura del sistema
 
@@ -65,17 +57,17 @@
 └── README.md
 ```
 
-## 📸 Capturas (sugerido agregar)
+## 📸 Capturas 
 
 - Login con 2FA
+  <img width="958" height="637" alt="imagen" src="https://github.com/user-attachments/assets/d9bd7bbd-4a29-4098-acee-dca08a721f6f" />
 - Panel de gestión de tickets
-- Modales de creación/edición
-- Tablas interactivas con filtros
+  <img width="1843" height="881" alt="imagen" src="https://github.com/user-attachments/assets/672ce90a-5472-4c89-bbb0-c6f03d4dc6d9" />
 
 ## 👩‍💻 Autora
 
 **Valentina Torres**  
-📧 valentina.torres@ejemplo.com *(reemplazar por el real si se desea)*  
+📧 vta9351394@gmail.com 
 🛠 Desarrolladora del sistema Incident Tracker
 
 ---
