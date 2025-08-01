@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Código incident tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .content p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .code {
+            font-size: 24px;
+            color: #4CAF50;
+            margin-bottom: 20px;
+            border: 1px dashed #4CAF50;
+            padding: 10px;
+            display: inline-block;
+            letter-spacing: 2px;
+        }
+        .footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Verificación de Seguridad</h1>
+        </div>
+        <div class="content">
+            <p style="color: #000;">Para continuar con el acceso, introduce el siguiente código en la página:</p>
+            <div class="code">{{CODE}}</div>
+         <p style="color: #000;">Este código expira en <strong>2 minutos</strong>.</p>
+<p style="color: #000;">Si no has solicitado este código, por favor ignora este mensaje.</p>
+
+        </div>
+        <div class="footer">
+            &copy; 2025 Valentina Torres. Todos los derechos reservados.
+        </div>
+    </div>
+</body>
+</html>

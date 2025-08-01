@@ -1,0 +1,99 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f8f9fc;
+}
+
+/* 🔷 Estilo para todos los íconos del menú lateral */
+.sidebar .nav-link i {
+    display: inline-block;
+    transition: transform 0.1s ease-in-out, color 0.1s ease-in-out;
+}
+
+.sidebar .nav-link:hover i {
+    transform: scale(1.2);
+    color: #0d6efd; /* Azul Bootstrap */
+}
+
+/* 🔷 Cambia también el texto al pasar el mouse */
+.sidebar .nav-link:hover {
+    color: #0d6efd;
+}
+
+/* 🔷 Fondo para item activo */
+.sidebar .nav-item.active > .nav-link {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.sidebar .nav-item.active > .nav-link i {
+    color: #fff;
+}
+
+/* 🟦 Encabezado de tabla */
+.custom-table thead {
+    background-color: #4e73df;
+    color: white;
+}
+
+/* 🟦 Hover sobre filas */
+.custom-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* 🟢 Estilos para badges */
+.badge-status {
+    font-size: 0.9em;
+    padding: 0.4em 0.6em;
+    border-radius: 0.5rem;
+}
+
+.badge-success {
+    background-color: #1cc88a;
+}
+
+.badge-secondary {
+    background-color: #858796;
+}
+
+.badge-danger {
+    background-color: #e74a3b;
+}
+
+/* 🟧 Botones de acción en la tabla */
+.btn-action {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.85rem;
+}
+
+/* 🟨 Contenedor con sombra y bordes redondeados */
+.shadow-container {
+    box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.1);
+    background: white;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+/* 🟫 Texto negro en tablas */
+.letras-negras tbody td {
+    color: #212529; /* Color negro Bootstrap */
+}
+
+/* 🔧 Ajustes para submenu de "Vulnerabilidades" */
+.sidebar .collapse-inner {
+    padding-left: 0.25rem !important;
+    padding-right: 0.25rem !important;
+}
+
+.sidebar .collapse-item {
+    padding-left: 0.75rem !important;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.sidebar .collapse-item:hover {
+    background-color: #f8f9fc;
+    border-radius: 0.35rem;
+}

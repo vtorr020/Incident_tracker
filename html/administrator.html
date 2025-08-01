@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/administrator.css">
+    <link rel="icon" href="../img/icon_seguridad.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <title>hola mundo</title>
+</head>
+
+<body>
+    <main>
+        <article>
+            <header>
+                <article>
+
+                    <div id="icon">
+                        <img src="../img/icon_seguridad.png" alt="Icono página">
+                        <h1>hola mundo</h1>
+                    </div>
+
+                    <div id="navBox">
+                        <p>NAVEGACIÓN</p>
+                    </div>
+
+                    <nav>
+                        <ul>
+                            <li><a href="#" onclick="showSection('home')"><i class="bi bi-house-door"></i>Inicio</a></li>
+                            <li><a href="#" onclick="showSection('amenazas')">Amenazas</a></li>
+                            <li><a href="#" onclick="showSection('novedades')">Novedades</a></li>
+                        </ul>
+                    </nav>
+                </article>
+            </header>
+        </article>
+
+        <section class="content">
+            <!-- Sección de Inicio -->
+            <div id="Inicio" class="section active">
+                <section>
+                    <div class="topbar">
+                        <div class="topbar-left">
+                            <button class="menu-btn"><i class="bi bi-list"></i></button>
+                            <input type="text" class="search-input" placeholder="Search...">
+                            <button class="search-btn">Search</button>
+                        </div>
+                        <div class="topbar-right">
+                            <div class="language-dropdown">
+                                <button class="dropdown-btn">English <i class="bi bi-caret-down-fill"></i></button>
+                                <ul class="dropdown-menu">
+                                    <li data-lang="English">English</li>
+                                    <li data-lang="Spanish">Spanish</li>
+                                    <li data-lang="Italian">Italian</li>
+                                    <li data-lang="Russian">Russian</li>
+                                </ul>
+                            </div>
+        
+                            <button class="notification-btn">
+                                <span class="notification-dot"></span><i class="bi bi-bell-fill"></i>
+                            </button>
+                            <button class="dark-mode-btn"><i class="bi bi-moon"></i></button>
+                            <button class="fullscreen-btn"><i class="bi bi-arrows-fullscreen"></i></button>
+                        </div>
+                    </div>
+                </section>
+        
+            </div>            
+
+            <!-- Sección de Amenazas -->
+            <div id="amenazas" class="section hidden">
+                <h2>Amenazas</h2>
+                <p>Contenido relacionado con amenazas...</p>
+            </div>
+
+        </section>
+
+        <article>
+
+        </article>
+    </main>
+    <script src="js/script.js" defer></script>
+</body>
+
+</html>
