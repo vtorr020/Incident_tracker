@@ -1,4 +1,4 @@
-# [📌Incident tracker]
+# 📌Incident tracker
 
 **Incident Tracker** es una plataforma web diseñada para registrar, gestionar y hacer seguimiento a los incidentes detectados por el equipo SOC dentro de Foundever. Permite mantener un control centralizado, aplicar medidas correctivas y garantizar trazabilidad en todas las áreas involucradas.
 
@@ -60,8 +60,11 @@
 ## 📸 Capturas 
 
 - Login con 2FA
+  
   <img width="958" height="637" alt="imagen" src="https://github.com/user-attachments/assets/d9bd7bbd-4a29-4098-acee-dca08a721f6f" />
+  
 - Panel de gestión de tickets
+  
   <img width="1843" height="881" alt="imagen" src="https://github.com/user-attachments/assets/672ce90a-5472-4c89-bbb0-c6f03d4dc6d9" />
 
 ## 👩‍💻 Autora
