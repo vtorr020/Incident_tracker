@@ -59,13 +59,14 @@
 
 ## 📸 Capturas 
 
+
+- Login 
+
+  <img width="710" height="729" alt="imagen" src="https://github.com/user-attachments/assets/5f688572-a44d-4ded-8e30-ece213d1cccb" />
+  
 - Login con 2FA
   
   <img width="958" height="637" alt="imagen" src="https://github.com/user-attachments/assets/d9bd7bbd-4a29-4098-acee-dca08a721f6f" />
-  
-- Panel de gestión de tickets
-  
-  <img width="1843" height="881" alt="imagen" src="https://github.com/user-attachments/assets/672ce90a-5472-4c89-bbb0-c6f03d4dc6d9" />
 
 ## 👩‍💻 Autora
 
